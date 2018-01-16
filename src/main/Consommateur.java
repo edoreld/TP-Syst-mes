@@ -19,6 +19,6 @@ public class Consommateur extends Observer {
 	}
 
 	private void buy() {
-		// buy the item
+		System.out.println("Buying item");
 	}
 }
