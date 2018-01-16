@@ -7,5 +7,5 @@ public abstract class Handler {
 		this.succesor = succesor;
 	}
 
-	public abstract void handleRequest(exo3.Request request);
+	public abstract void handleRequest(MyRequest request);
 }

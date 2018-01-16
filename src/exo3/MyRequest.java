@@ -1,9 +1,9 @@
 package exo3;
 
-public class Request {
+public class MyRequest {
 	int value;
 
-	public Request(int value) {
+	public MyRequest(int value) {
 		this.value = value;
 	}
 

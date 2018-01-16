@@ -27,7 +27,7 @@ public class Employe extends Handler {
 	}
 
 	@Override
-	public void handleRequest(exo3.Request request) {
+	public void handleRequest(MyRequest request) {
 		if (request.getValue() <= this.getPlafondDepense()) {
 			System.out.println(nom + " a donné son accord pour une dépense de " + request.getValue());
 		} else {

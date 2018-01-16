@@ -13,8 +13,8 @@ public class Client {
 		h1.setSuccesor(h2);
 		h2.setSuccesor(h3);
 
-		h1.handleRequest(new Request(5));
-		h1.handleRequest(new Request(15));
-		h1.handleRequest(new Request(25));
+		h1.handleRequest(new MyRequest(5));
+		h1.handleRequest(new MyRequest(15));
+		h1.handleRequest(new MyRequest(25));
 	}
 }
